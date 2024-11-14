@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(47, 88%, 63%);
+}
+
+.conteiner{
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid black;
+  box-shadow: 10px 10px;
+  margin: 10vh 0 0 82vh;
+  border-radius: 15px;
+  font-size: 16px;
+  height: 82vh;
+  width: 60vh;
+}
+
+.conteiner > .illustration{
+  margin: 3vh 0 0 3.5vh;
+  border-radius: 15px;
+  width: 52vh;
+}
+
+.conteiner > .learning{
+  background-color: hsl(47, 88%, 63%);
+  border: 1px solid hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 15px;
+  margin: 3vh 0 2vh 3.5vh;
+  padding: 1vh 0 1vh 1.5vh;
+  border-radius: 5px;
+  width: 13vh;
+}
+
+.conteiner > .date{
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+  color: hsl(0, 0%, 7%);
+  margin: 3vh 0 2vh 3.5vh;
+  width: 30vh;
+}
+
+.conteiner > h1{
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  margin: 3vh 0 2vh 3.5vh;
+  color: hsl(0, 0%, 7%);
+  font-size: 3.7vh;
+  width: 45vh;
+}
+
+.conteiner > h1:hover{
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+
+.conteiner > .description{
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: hsl(0, 0%, 42%);
+  margin: 3vh 0 4vh 3.5vh;
+  width: 55vh;
+}
+
+.conteiner > .avatar{
+  margin: 0 0 3vh 3.5vh;
+  width: 5.5vh;
+}
+
+.conteiner > .name{
+  color: hsl(0, 0%, 7%);
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 15px;
+  position: absolute;
+  left: 93vh;
+  bottom: 13.4vh;
+  width: 15vh;
+}
+
+@media only screen and (max-width: 375px) {
+  .conteiner{
+    margin: 10vh 0 0 0;
+  }
+
+  .conteiner > .name{
+    position: absolute;
+    left: 12vh;
+    bottom: 13.4vh;
+    width: 15vh;
+  }
+}

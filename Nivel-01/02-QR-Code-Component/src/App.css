@@ -48,3 +48,9 @@ body{
   font-size: 15px;
   width: 40vh;
 }
+
+@media only screen and (max-width: 375px) {
+  .conteiner{
+    margin: 10vh 0 0 5vh;
+  }
+}

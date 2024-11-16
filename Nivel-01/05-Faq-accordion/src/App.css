@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    font-size: 16px;
+}
+
+.pattern{
+    width: 222.8vh;
+}
+
+.conteiner{
+    position: absolute;
+    margin: -25vh 0 0 70vh;
+    background-color: hsl(0, 0%, 100%);
+    width: 80vh;
+    border-radius: 10px;
+}
+
+.conteiner > .star-icon{
+    width: 30px;
+    margin: 5vh 0 3vh 5vh;
+}
+
+.conteiner > h1{
+    position: absolute;
+    margin: -10.5vh 0 0 13vh;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 7vh;
+    font-style: normal;
+}
+
+.conteiner > .accordion > .line{
+    background-color: hsl(275, 100%, 97%);
+    margin: 0 0 2vh 5vh;
+    width: 70vh;
+    height: 1px;
+}
+
+.conteiner > .accordion > div > h1{
+    color: hsl(292, 42%, 14%);
+    margin: 0 0 6vh 5vh;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2.3vh;
+    font-style: normal;
+}
+
+.conteiner > .accordion > div > h1:hover{
+    cursor: pointer;
+    color: hsl(292, 42%, 44%);
+}
+
+.conteiner > .accordion > div > img{
+    position: absolute;
+    margin: -10vh 0vh 0 70vh;
+    animation: down 2s normal;
+}
+
+.conteiner > .accordion > div > p{
+    color: hsl(292, 16%, 49%);
+    width: 70vh;
+    margin: 0 0 6vh 5vh;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 2.3vh;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 375px) {
+    .pattern{
+        width: 61.1vh;
+    }
+
+    .conteiner{
+        margin: 4vh 0 0 3vh;
+        width: 55vh;
+    }
+
+    .conteiner > .accordion > .line{
+        width: 45vh;
+    }
+
+    .conteiner > .accordion > div > h1{
+        width: 35vh;
+        font-size: 2.5vh;
+    }
+
+    .conteiner > .accordion > div > img{
+        margin: -10vh 0 0 45vh;
+    }
+}

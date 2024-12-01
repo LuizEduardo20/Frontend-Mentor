@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(217, 54%, 11%);
+  
+}
+
+.conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: -2px 2px 20px 0px hsl(216, 50%, 16%);
+  margin: 5vh 0 0 85vh;
+  width: 55vh;
+  height: 93vh;
+  border-radius: 15px;
+}
+
+.conteiner > .img_equilibrium{
+  width: 49vh;
+  height: 50vh;
+  border-radius: 10px;
+  position: relative;
+  margin: -35vh 0 0 0;
+  background-image: url('./assets/images/image-equilibrium.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.conteiner > .img_equilibrium:hover{
+  position: absolute;
+  cursor: pointer;
+  background-image: url('./assets/images/icon-view.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: hsla(178, 100%, 50%, 0.350);
+  margin: -35vh 0 0 0;
+}
+
+.conteiner > h1{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 22px;
+  font-style: normal;
+  position: absolute;
+  margin: 25vh 21vh 0 0;
+  color: hsl(0, 0%, 100%);
+}
+
+.conteiner > h1:hover{
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.conteiner > p{
+  position: absolute;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  margin: 42vh 0 0 0;
+  width: 50vh;
+  color: hsl(215, 51%, 70%);
+}
+
+.conteiner > .icon_ethereum{
+  position: absolute;
+  margin: 60vh 47vh 0 0;
+}
+
+.conteiner > h2{
+  position: absolute;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+  margin: 60vh 32vh 0 0;
+  color: hsl(178, 100%, 50%);
+}
+
+.conteiner > .icon_clock{
+  position: absolute;
+  margin: 60vh 0 0 20vh;
+}
+
+.conteiner > .clock_p{
+  position: absolute;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+  width: 12vh;
+  margin: 60vh 0 0 37vh;
+  color: hsl(215, 51%, 70%);
+}
+
+.conteiner > hr{
+  position: absolute;
+  margin: 70vh 0 0 0;
+  width: 50vh;
+  height: 1px;
+  border: none;
+  background-color: hsl(215, 32%, 27%);
+}
+
+.conteiner > .icon_avatar{
+  position: absolute;
+  margin: 80vh 45vh 0 0;
+  width: 5vh;
+}
+
+.conteiner > .avatar_p{
+  position: absolute;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: normal;
+  margin: 80vh 0 0 15vh;
+}
+
+.conteiner > .avatar_p > strong{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  color: hsl(0, 0%, 100%);
+}
+
+.conteiner > .avatar_p > strong:hover{
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+@media (width <= 375px){
+  .conteiner{
+    margin: 4vh 0 0 3vh;
+  }
+
+  .conteiner > .avatar_p{
+    width: 30vh;
+    margin: 80vh 5vh 0 0;
+  }
+}

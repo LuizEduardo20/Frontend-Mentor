@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.proceed{
+    background-color: hsl(245, 75%, 52%);
+        padding: 2vh 0 0 0;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    display: flex;
+    justify-content: center;
+    color: hsl(225, 100%, 98%);
+    width: 50vh;
+    height: 7vh;
+    border-radius: 10px;
+    margin: 5vh 0 0 5vh;
+}
+
+.proceed:hover{
+    cursor: pointer;
+    background-color: hsla(245, 75%, 52%, 0.74);
+}
+
+.cancel{
+    border: none;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 2.5vh;
+    font-style: normal;
+    color: hsl(224, 23%, 55%);
+    margin: 4vh 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cancel:hover{
+    cursor: pointer;
+    color: #000000;
+}

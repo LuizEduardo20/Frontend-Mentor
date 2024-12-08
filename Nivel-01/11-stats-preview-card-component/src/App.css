@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 15px;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.conteiner{
+  background-color: hsl(244, 38%, 16%);
+  width: 165vh;
+  height: 70vh;
+  border-radius: 5px;
+  margin: 15vh 0 0 25vh;
+}
+
+.image-overlay > .image {
+  position: absolute;
+  border-radius: 0 10px 10px 0;
+  width: 85vh;
+  margin: 0 0 0 85vh;
+  z-index: 0;
+}
+
+.image-overlay {
+  position: absolute;
+}
+
+.image-overlay::before {
+  content: "";
+  margin: 0 0 0 85vh;
+  border-radius: 0 10px 10px 0;
+  position: absolute;
+  width: 85vh;
+  height: 70.1vh;
+  background-color: hsl(277, 64%, 61%);
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.conteiner > h1{
+  color: hsl(0, 0%, 100%);
+  margin: 0 0 0 10vh;
+  padding: 10vh 0 0 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 6vh;
+  font-style: normal;
+  width: 60vh;
+}
+
+.conteiner > h1 > strong{
+  color: hsl(277, 64%, 61%);
+}
+
+.conteiner > p{
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 4vh 0 0 10vh;
+  width: 60vh;
+  font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 4vh;
+}
+
+@media (max-width: 375px) {
+
+  .conteiner{
+    background-color: hsl(244, 38%, 16%);
+    width: 40vh;
+    height: 96vh;
+    border-radius: 5px;
+    margin: 1vh 0 0 10vh;
+  }
+
+  .image-overlay > .image {
+    content: url('./assets/images/image-header-mobile.jpg');
+    border-radius: 5px 5px 0 0;
+    width: 40vh;
+    margin: 0 0 0 0;
+  }
+
+  .image-overlay::before{
+    margin: 0 0 0 0;
+    border-radius: 5px 5px 0 0 ;
+    width: 40vh;
+    height: 29.5vh;
+  }
+
+  .conteiner > h1{
+    position: absolute;
+    margin: 23vh 0 0 5vh;
+    font-size: 3vh;
+    width: 30vh;
+    text-align: center;
+  }
+
+  .conteiner > p{
+    position: absolute;
+    margin: 48vh 0 0 2vh;
+    text-align: center;
+    width: 35vh;
+    }
+}

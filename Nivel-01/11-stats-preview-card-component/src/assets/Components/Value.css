@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+.data{
+    display: flex;
+    flex-direction: row;
+}
+
+.data > .companies_number{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    margin: 10vh 0 0 10vh;
+    width: 10vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.data > .companies_name{
+    position: absolute;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin: 15vh 0 0 10vh;
+    width: 15vh;
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vh;
+}
+
+.data > .templates_number{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    margin: 10vh 0 0 35vh;
+    width: 10vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.data > .templates_name{
+    position: absolute;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin: 15vh 0 0 35vh;
+    width: 15vh;
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vh;
+}
+
+.data > .queries_number{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    margin: 10vh 0 0 60vh;
+    width: 10vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.data > .queries_name{
+    position: absolute;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin: 15vh 0 0 60vh;
+    width: 15vh;
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vh;
+}
+
+@media (max-width: 375px) {
+    .data > .companies_number{
+        margin: 70vh 0 0 17vh;
+        font-size: 15px;
+    }
+    
+    .data > .companies_name{
+        margin: 74vh 0 0 14vh;
+    }
+    
+    .data > .templates_number{
+        margin: 80vh 0 0 17.5vh;
+        font-size: 15px;
+    }
+    
+    .data > .templates_name{
+        margin: 84vh 0 0 14.5vh;
+    }
+    
+    .data > .queries_number{
+        margin: 88vh 0 0 16.5vh;
+        font-size: 15px;
+    }
+    
+    .data > .queries_name{
+        margin: 92vh 0 0 15vh;
+    }
+}

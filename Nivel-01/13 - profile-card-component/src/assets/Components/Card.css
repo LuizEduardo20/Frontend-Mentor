@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+.conteiner{
+    background-color: white;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 15px;
+    z-index: 1
+}
+
+.conteiner > .bgCard{
+    width: 60vh;
+    border-radius: 15px 15px 0 0;
+}
+
+.conteiner > .persona{
+    position: absolute;
+    border-radius: 55px;
+    margin: 15vh 0 0 -39vh;
+    border: 4px solid white;
+}
+
+.conteiner > h1{
+    position: absolute;
+    color: hsl(229, 23%, 23%);
+    margin: 10vh 0 0 18vh;
+    width: 20vh;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "YOPQ" 300;
+}
+
+.conteiner > .numberTitle{
+    color: hsl(0, 0%, 59%);
+    position: absolute;
+    margin: 10.2vh 0 0 37vh;
+    width: 5vh;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "YOPQ" 300;
+}
+
+.conteiner > .locate{
+    color: hsl(227, 10%, 46%);
+    width: 10vh;
+    position: absolute;
+    margin: 15vh 0 0 25vh;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "YOPQ" 300;
+}
+
+.conteiner > hr{
+    position: absolute;
+    width: 60vh;
+    margin: 22vh 0 0 0;
+    border: 1px solid hsla(0, 0%, 59%, 0.13);
+}
+
+.conteiner > .numberFollowers{
+    color: hsl(229, 23%, 23%);
+    position: absolute;
+    margin: 26vh 0 0 8vh;
+    width: 8vh;
+    font-size: 18px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "YOPQ" 300;
+}
+
+.conteiner > .nameFollowers{
+    color: hsl(227, 10%, 46%);
+    position: absolute;
+    margin: 30vh 0 0 5.5vh;
+    width: 8vh;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "YOPQ" 300;
+}
+
+.conteiner > .numberLikes{
+    color: hsl(229, 23%, 23%);
+    position: absolute;
+    margin: 26vh 0 0 26vh;
+    width: 8vh;
+    font-size: 18px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "YOPQ" 300;
+}
+
+.conteiner > .nameLikes{
+    color: hsl(227, 10%, 46%);
+    position: absolute;
+    margin: 30vh 0 0 27vh;
+    width: 8vh;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "YOPQ" 300;
+}
+
+.conteiner > .numberPhotos{
+    color: hsl(229, 23%, 23%);
+    position: absolute;
+    margin: 26vh 0 0 45vh;
+    width: 8vh;
+    font-size: 18px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "YOPQ" 300;
+}
+
+.conteiner > .namePhotos{
+    color: hsl(227, 10%, 46%);
+    position: absolute;
+    margin: 30vh 0 0 45vh;
+    width: 8vh;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "YOPQ" 300;   
+}

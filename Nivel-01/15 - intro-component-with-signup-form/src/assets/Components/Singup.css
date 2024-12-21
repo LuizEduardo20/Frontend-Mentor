@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.conteinerSingup {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 15px 32px;
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 5px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.input-container input::placeholder {
+  color: hsl(249, 10%, 26%);
+  opacity: 0.75;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.input-container input.error {
+  border: 2px solid hsl(0, 100%, 74%);
+  color: hsl(0, 100%, 74%);
+}
+
+.input-container input.error::placeholder {
+  color: hsl(0, 100%, 74%);
+}
+
+.error-icon {
+  position: absolute;
+  right: 27px;
+  top: 4vh;
+  transform: translateY(-50%);
+}
+
+.error-message {
+  color: hsl(0, 100%, 74%);
+  font-size: 11px;
+  font-style: italic;
+  text-align: right;
+  margin-top: 6px;
+}
+
+.input-container input[name="email"].error {
+  color: hsl(0, 100%, 74%);
+}
+
+button {
+  width: 100%;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  text-transform: uppercase;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 -4px rgba(0, 0, 0, 0.0909);
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: hsla(154, 59%, 51%, 0.7);
+}
+
+.conteinerSingup > p {
+  color: hsl(246, 25%, 77%);
+  font-size: 11px;
+  text-align: center;
+  line-height: 26px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.conteinerSingup > p span {
+  color: hsl(0, 100%, 74%);
+  cursor: pointer;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media (max-width: 376px) {
+  .conteinerSingup {
+    padding: 24px;
+  }
+}
